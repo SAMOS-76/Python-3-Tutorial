@@ -43,6 +43,42 @@ print("Hello World!")
 5. Click on **run** and select **Run module**. In this instance, **module** means python file.  
 6. The Shell window should then open up and the words **Hello World!** should appear.  
 
-### Numbers in python  
+## Numbers in python  
 ### Adding in python  
-Open the shell window and type
+Open/go back to the shell window and type and press enter: 
+'''python
+4 + 4
+'''  
+You should see the shell window output:  
+
+### Subtracting in python  
+Type and press enter: 
+```python
+8 - 4
+```  
+You should see the shell window output: 
+
+### Dividing in python  
+Type and press enter: 
+```python
+8 / 4
+```  
+You should see the shell window output: 
+Notice how we don't use the standard **÷** symbol. In python and computer science in general we don't use the normal divide sign but the **/** sign.
+
+### Multiplying in python  
+Type and press enter:  
+```python
+2 * 2
+```   
+You should see the shell window output:  
+Notice how we don't use the standard **x** symbol. In python and computer science in general we don't use the normal divide sign but the **'*'** sign.  
+
+### Equals sign 
+In python, we don't use **=** for maths but for a different purpose that will be answered in a moment.  
+
+## Variables  
+Variables are like a named boxes where you can store information. You can change this information but the label stays the same.  
+### How to create a variable  
+
+
