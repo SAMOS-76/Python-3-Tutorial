@@ -46,9 +46,9 @@ print("Hello World!")
 ## Numbers in python  
 ### Adding in python  
 Open/go back to the shell window and type and press enter: 
-'''python
+```python
 4 + 4
-'''  
+```  
 You should see the shell window output:  
 
 ### Subtracting in python  
