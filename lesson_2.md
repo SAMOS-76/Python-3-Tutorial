@@ -132,3 +132,30 @@ elif reply == "no":
 else:
     print("Please answer with yes or no")
 ```  
+
+## Random numbers and the while loop   
+### The Random Module
+To generate random numbers in python, we need a new function  called **randint**. However, all the random number functions are stored seperately in something called a module. To get to them you need a keyword called **import**. Make a new file and type in:  
+```python
+import random
+number = random.randint(1, 20)
+print(number)
+```
+Line 1: Here we import the random module.  
+Line 2: We create a variable called number and we give it the value of random.randint(1, 20). This created a random number from 1 to 20.  
+Line 3: We print this random number.  
+
+### Adding Loops  
+A **loop** is a bit of code that repeats. Loops save time because tou don't have to keep typing the same thing over and over. We are going to look at the **while loop**. A **while loop** repeats as long as a certain condition is true. Add the following to our previous code:  
+```python
+import random
+number = random.randint(1, 20)
+guess = int(input("I'm thinking of a number what is it? "))
+while guess != number:
+  if guess < number:
+    print("Your number was too low...")
+  else:
+    print("Your number was too high")
+  guess = int(input("Please try again "))
+print("Congrats!! That is correct" )
+```  
