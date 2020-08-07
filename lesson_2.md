@@ -60,7 +60,7 @@ This should return:
 ```   
 This is because it has converted the interger into a decimal number.    
 
-##Making Decisions in python    
+## Making Decisions in python    
 To make a python script that allows you to choose what happens in it we need to use something called conditions. A condition is a bit of code that compares two pieces of information using the comparitive operators below:    
   * **==** means **is equal to**  
   * **!=** means **is not equal to**  
